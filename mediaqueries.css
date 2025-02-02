@@ -58,7 +58,6 @@
 }
 
 @media screen and (max-width: 600px) {
-
   #contact,
   footer {
     height: 40vh;
@@ -124,4 +123,16 @@
   .text-container {
     text-align: justify;
   }
+}
+
+/* Ensure icon stays inline with h3 in experience section */
+.experience-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* Adjust spacing between icon and text */
+}
+
+.icon {
+  width: 24px; /* Adjust size as needed */
+  height: 24px;
 }
