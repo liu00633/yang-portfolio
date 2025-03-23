@@ -67,7 +67,7 @@
 .section__pic-container {
   flex: 1; /* Allows the image container to take equal space */
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .text-container {
@@ -138,7 +138,7 @@
   .section__pic-container {
     width: auto;
     height: 46vw;
-    justify-content: center;
+    /* justify-content: center; */
   }
 
   .section__text__p2 {
