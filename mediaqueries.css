@@ -67,7 +67,7 @@
 .section__pic-container {
   flex: 1; /* Allows the image container to take equal space */
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .text-container {
@@ -152,8 +152,6 @@
   .text-container {
     text-align: justify;
   }
-  /*/*/
-
 }
 
  
