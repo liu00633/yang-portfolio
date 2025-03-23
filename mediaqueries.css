@@ -57,6 +57,35 @@
   }
 }
 
+.section-container {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  justify-content: center; /* Centers content horizontally */
+  gap: 2rem; /* Adds spacing between image and text */
+}
+
+.section__pic-container {
+  flex: 1; /* Allows the image container to take equal space */
+  display: flex;
+  justify-content: center;
+}
+
+.text-container {
+  flex: 1; /* Allows text to take equal space */
+}
+
+
+.btn {
+  border: 2px solid #68869a; /* Change border color */
+  color: #68869a; /* Change font color */
+}
+
+.btn:hover {
+  background-color: #68869a; /* Optional: Change background on hover */
+  color: white; /* Optional: Improve contrast on hover */
+}
+
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
