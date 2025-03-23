@@ -154,3 +154,8 @@
   }
 }
 
+ .text-container p {
+    text-align: justify;
+    text-justify: inter-word; /* Ensures even spacing between words */
+  }
+
