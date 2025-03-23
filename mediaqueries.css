@@ -74,7 +74,6 @@
   flex: 1; /* Allows text to take equal space */
 }
 
-
 .btn {
   border: 2px solid #68869a; /* Change border color */
   color: #68869a; /* Change font color */
@@ -84,7 +83,6 @@
   background-color: #68869a; /* Optional: Change background on hover */
   color: white; /* Optional: Improve contrast on hover */
 }
-
 
 @media screen and (max-width: 600px) {
   #contact,
@@ -137,8 +135,22 @@
 
   .section__pic-container {
     width: auto;
-    height: 46vw;
-    /* justify-content: center; */
+    height: auto;
+    max-width: 300px;
+    margin: 0 auto 1rem;
+  }
+
+  .section__pic-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #about .section-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .section__text__p2 {
@@ -151,7 +163,7 @@
 
   .text-container {
     text-align: justify;
+    padding: 0 1rem;
+    width: 100%;
   }
 }
-
- 
