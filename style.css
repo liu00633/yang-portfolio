@@ -18,6 +18,10 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+  line-height: 1.8em;
+}
+h1,.nav-links li a{
+  color:#68869a;
 }
 
 /* TRANSITION */
