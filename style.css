@@ -499,3 +499,8 @@ footer p {
   display: inline-block;
   margin-top: 30px;
 }
+.section__text__p2{
+  color: #68869a;
+  font-size: 0.8em;
+  line-height: 1em;
+}
