@@ -487,7 +487,10 @@ footer p {
   }
 }
  .intro{
-  padding: 30px;
+    padding: 10px;
+    text-align: justify;
+    width: 100%;
+ 
  }
  #projects a {
   color: #68869a;
