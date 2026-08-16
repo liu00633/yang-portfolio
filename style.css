@@ -486,12 +486,12 @@ footer p {
     max-width: 100%;
   }
 }
- .intro{
-    padding: 10px;
-    text-align: justify;
-    width: 100%;
- 
- }
+.intro {
+  padding: 10px;
+  width: 100%;
+  line-height: 1.8;
+  text-align: left;
+}
  #projects a {
   color: #68869a;
   border: 1px solid #68869a;
