@@ -1,6 +1,2 @@
-function toggleMenu() {
-  const menu = document.querySelector(".menu-links");
-  const icon = document.querySelector(".hamburger-icon");
-  menu.classList.toggle("open");
-  icon.classList.toggle("open");
-}
+function toggleMenu(){const menu=document.querySelector('.menu-links');const icon=document.querySelector('.hamburger-icon');const isOpen=menu.classList.toggle('open');icon.classList.toggle('open',isOpen);icon.setAttribute('aria-expanded',String(isOpen));}
+document.addEventListener('DOMContentLoaded',()=>{const year=document.getElementById('current-year');if(year)year.textContent=new Date().getFullYear();const items=document.querySelectorAll('.reveal');if('IntersectionObserver'in window){const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}})},{threshold:.12});items.forEach(item=>observer.observe(item));}else{items.forEach(item=>item.classList.add('visible'));}});
