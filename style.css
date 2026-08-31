@@ -21,37 +21,3 @@
 
 /* v3 refinements: unified hero description and consistent project hover */
 .hero-intro{max-width:680px;margin-top:28px;color:var(--text);font-size:1.08rem;line-height:1.7;font-weight:400;letter-spacing:0}
-
-/* 2026-08-25 refinements: unified About paragraph typography + mobile Orbit preview */
-.about-copy .lead{
-  color:var(--muted);
-  font-size:inherit;
-  line-height:inherit;
-  font-weight:400;
-  letter-spacing:0;
-}
-
-/* Current project order: NCD, AI Operator, WearNest, Orbit Ottawa, Food Ordering */
-.project-card:nth-of-type(4) .project-image img{
-  object-fit:contain;
-  object-position:center;
-  background:#eef2f4;
-}
-
-@media screen and (max-width:520px){
-  .project-card:nth-of-type(4) .project-image{
-    aspect-ratio:16/10;
-    padding-inline:8px;
-    background:#eef2f4;
-  }
-  .project-card:nth-of-type(4) .project-image img{
-    width:100%;
-    height:100%;
-    object-fit:contain;
-    object-position:center;
-    transform:none;
-  }
-  .project-card:nth-of-type(4):hover .project-image img{
-    transform:none;
-  }
-}
